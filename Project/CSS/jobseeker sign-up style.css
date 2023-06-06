@@ -1,0 +1,133 @@
+/* Form styles */
+body 
+{
+    background-color: #d9d9d9;
+    margin: 0;
+		padding: 0;
+		flex-direction: column;
+		min-height: 100vh;
+}
+
+h2 
+{
+    color: white;
+}
+
+form 
+{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 5%;
+  place-items: center;
+  background-color: #2B353E;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.50rem;
+    border: 1px solid #d9d9d9;
+  }
+  
+  button {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    color: #2B353E;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+    color: white;
+  }
+
+  header {
+    background-color: #2B353E;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    flex-grow: 1;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #2B353E;
+    color: #fff;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-media a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  
+  .social-media i {
+    font-size: 20px;
+  }
